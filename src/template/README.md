@@ -1,15 +1,16 @@
 {{#if logo}}
 <p align="center">
-  <img alt="logo.svg" width="{{logo.width}}" src="{{logo.url}}">
+  <img alt="logo.svg" width="{{logo.width}}" src="https://cdn.rawgit.com/{{ username }}/{{ name }}/master/{{logo.path}}">
 </p>
 
 <p align="center">
-  {{logo.description}}
+  {{description}}
 </p>
 
 <br/>
 {{else}}
 # {{ name }}
+> {{ description }}
 {{/if}}
 
 {{#if badges}}
@@ -79,7 +80,7 @@ const {{ camelize name }} = require('{{name}}')
 
 {{#if faq}}
 ## {{#trim}}{{#if faq.newname}} {{faq.newname}} {{else}} FAQ {{/if}}{{/trim}}
-{{#each faq.qaList as |faq|}}
+{{#each faq.list as |faq|}}
 
 <details><summary>{{ faq.q }}</summary><br>
 {{ faq.a }}
