@@ -3,10 +3,6 @@
 </p>
 
 <p align="center">
-  <img alt="logo.svg" width="500" src="http://conan.manmankan.com/UploadFiles_8432/201008/2010080314000037.jpg">
-</p>
-
-<p align="center">
   Salubrious generator
 </p>
 
@@ -64,6 +60,10 @@ It combines git global configuration, package.json and akai configuration to dyn
 
 
 ## Author
+
+<p align="center">
+  <img alt="logo.svg" width="500" src="https://cdn.rawgit.com/ulivz/akai/master/media/akai-shuuichi.png">
+</p>
 
 **akai** © [ULIVZ](https://github.com/ulivz), Released under the [MIT](./LICENSE) License.<br>
 Authored and maintained by ULIVZ with help from contributors ([list](https://github.com/ulivz/akai/contributors)).
