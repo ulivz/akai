@@ -1,0 +1,17 @@
+{
+  "name": "readmi",
+  "version": "0.0.1",
+  "description": "Salubrious README generator",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "example": "node example"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars2": "0.0.1"
+  }
+}
