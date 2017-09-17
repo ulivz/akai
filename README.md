@@ -1,5 +1,8 @@
 <p align="center">
   <img alt="logo.svg" width="300" src="https://cdn.rawgit.com/ulivz/akai/master/media/akai.svg">
+</p>
+
+<p align="center">
   <img alt="logo.svg" width="500" src="http://conan.manmankan.com/UploadFiles_8432/201008/2010080314000037.jpg">
 </p>
 
