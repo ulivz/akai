@@ -36,7 +36,6 @@ cli.command('readme', {
   } else {
     log.success('find package.json')
     rdm.parsePkg(pkg)
-    console.log()
     log.table(rdm.config)
     fs.writeFileSync(path.resolve(process.cwd(), 'README.md'), rdm.generate())
   }

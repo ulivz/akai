@@ -38,13 +38,18 @@ npm i akai --save-dev
 
 ## Usage
 
+Runtime:
+
 ```js
-const akai = require('akai')
+const akai = require('akai').runtime
 
-akai()
-//=> foo
+const myReadme = new akai.README({
+  username: 'egoist',
+  name: 'cac'
+})
+
+myReadme.text // => Your README
 ```
-
 
 ## FAQ
 

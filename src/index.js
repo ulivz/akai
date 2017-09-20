@@ -1,5 +1,3 @@
-const fs = require('fs')
-const path = require('path')
-
-module.exports = render
-
+module.exports = {
+  runtime: require('./runtime')
+}

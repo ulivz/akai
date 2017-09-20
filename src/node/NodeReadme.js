@@ -1,4 +1,4 @@
-const Readme = require('../runtime/Readme')
+const Readme = require('../runtime').Readme
 const user = require('.//git-user')
 const { render } = require('handlebars2')
 const fs = require('fs')
@@ -6,20 +6,6 @@ const path = require('path')
 
 const DEFAULT_TEMPLATE = fs.readFileSync(path.resolve(__dirname, '../template', 'README.md'), 'utf-8')
 
-const DEFAULT_CONFIG = {
-  "usage": true,
-  "badges": {
-    "version": true,
-    "downloads": true,
-    "codecov": true,
-    "ci": true,
-    "coverage": true
-  },
-  "install": {
-    "yarn": true,
-    "npm": true
-  }
-}
 
 class NodeReadme extends Readme {
   constructor() {
