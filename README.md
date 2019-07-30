@@ -13,7 +13,7 @@
 [![NPM downloads](https://img.shields.io/npm/dm/akai.svg?style=flat)](https://npmjs.com/package/akai)
 [![codecov](https://codecov.io/gh/ulivz/akai/branch/master/graph/badge.svg)](https://codecov.io/gh/ulivz/akai)
 [![CircleCI](https://circleci.com/gh/ulivz/akai/tree/master.svg?style=shield)](https://circleci.com/gh/ulivz/akai/tree/master)
-[![codecov](https://codecov.io/gh/ulivz/akai/branch/master/graph/badge.svg)](https://codecov.io/gh/ulivz/akai)  
+[![codecov](https://codecov.io/gh/ulivz/akai/branch/master/graph/badge.svg)](https://codecov.io/gh/ulivz/akai) [![Greenkeeper badge](https://badges.greenkeeper.io/ulivz/akai.svg)](https://greenkeeper.io/)  
 
 
 
