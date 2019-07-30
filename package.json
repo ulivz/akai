@@ -12,6 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "handlebars2": "0.0.1"
+    "handlebars2": "0.1.1"
   }
 }
